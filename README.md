@@ -7,26 +7,26 @@ React based frontend application for Library management assignment.
 
 Following features have been successfully implemented till now:
 -   Dashboard
-    ![Dashboard1](images/dashboard1.png)
-    ![Dashboard2](images/TopChoices.png)
-    ![Dashboard3](images/statistics.png)
+    ![Dashboard1](images/dashboard1.PNG)
+    ![Dashboard2](images/TopChoices.PNG)
+    ![Dashboard3](images/statistics.PNG)
 
 -   CRUD on Members
-    ![MembersPage](images/Members.png)
-    ![AddMember](images/dashboard_add_member.png)
+    ![MembersPage](images/Members.PNG)
+    ![AddMember](images/dashboard_add_member.PNG)
 
 -   Display Books
-    ![Books](images/books.png)
+    ![Books](images/books.PNG)
 -   Pagination
-    ![BooksPaginations](images/books_with_pagination.png)
+    ![BooksPaginations](images/books_with_pagination.PNG)
 -   Issue/Return a Book
-    ![DashboardIssueBook](images/dashboard_issue_book.png)
+    ![DashboardIssueBook](images/dashboard_issue_book.PNG)
 -   Handle issue history
 -   Search books
-    ![BooksSearch](images/books_search.png)
+    ![BooksSearch](images/books_search.PNG)
 -   Statistics
 -   Setlle Debt
-    ![SettleDebt](images/settle_debt.png)
+    ![SettleDebt](images/settle_debt.PNG)
 -   Charge a fee
 
 ## *Features In Progress*
