@@ -1,0 +1,124 @@
+.membersPageContainer {
+    display: flex;
+    height: 100vh;
+    /* border-radius: 20px;
+    background-color: #EDF1F2; */
+}
+
+.members-page-main-content {
+    flex-grow: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.card-inner {
+    display: flex;
+    border-radius: 20px;
+    background-color: #EDF1F2;
+    height: 90vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+    overflow: hidden; /* Ensure that children do not overflow */
+}
+
+.members-page-card-main {
+    background-color: #ffff;
+    padding: 20px;
+    border-radius: 10px; /* Add border radius for smooth corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+}
+
+.header-container {
+    display: flex; /* Align children in a row */
+    justify-content: space-between; /* Space between heading and button */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 20px; /* Space below the header container */
+}
+
+.header-container h2 {
+    margin: 0; /* Remove default margin for heading */
+    color: #333; /* Dark text for the heading */
+}
+
+.addButton {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: solid black 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.addButton:hover {
+    background-color: #c4c4c4; /* Darker blue on hover */
+}
+
+.search-input {
+    margin-left: 10px; /* Space between heading and input */
+    margin-bottom: 2%;
+    padding: 5px; /* Padding inside the input */
+    border: 1px solid #ccc; /* Border styling */
+    border-radius: 4px; /* Rounded corners */
+    height: 36px; /* Adjust height as needed */
+}
+
+.membersPageTable {
+    width: 100%;
+    border-collapse: collapse;
+    /* margin-top: 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px; Rounded corners for the table */
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); Slight shadow for the table */
+}
+
+.membersPageTable th, .membersPageTable td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.viewButton, .editButton {
+    margin-right: 5px;
+    padding: 8px 12px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners for buttons */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.viewButton:hover, .editButton:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.card-main h2 {
+    margin-bottom: 20px;
+    color: #333; /* Dark text for the heading */
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    .membersPageTable th, .membersPageTable td {
+        padding: 8px;
+    }
+
+    .viewButton, .editButton {
+        padding: 6px 10px;
+    }
+
+    .search-input {
+        width: 100%; /* Full width search input on smaller screens */
+        margin-bottom: 15px; /* Extra space for better layout */
+    }
+}
+
+.booksPageTable tbody tr.clickable-row {
+    cursor: pointer;
+}
+
+.booksPageTable tbody tr.clickable-row:hover {
+    background-color: #f0f0f0;
+}

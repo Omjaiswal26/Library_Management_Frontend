@@ -1,0 +1,81 @@
+.sidenav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1%;
+  height: 100%;
+  width: 5%;
+  height: 100vh; /* Ensure it takes up the full height */
+  position: relative;
+  z-index: 1;
+  flex-shrink: 0; /* Prevents the SideNav from shrinking */
+  background-color: #ffffff;
+}
+
+.sidenav h4 {
+  margin-bottom: 30px;
+  display: block; /* Hide title in collapsed mode */
+}
+
+/* Style the links inside the sidenav */
+.sidenav a {
+  padding: 5px;
+  text-decoration: none;
+  color: #818181;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  position: relative; /* Positioning context for absolute children */
+  border-radius: 4px; /* Rounded corners for the background */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+/* Current page icon styling */
+.sidenav a.active {
+  background-color: #F75866; /* Red background for current page */
+  color: #f1f1f1; /* Text color for active link */
+}
+
+/* Hover styling */
+.sidenav a:hover {
+  color: #f1f1f1;
+  width:75%;
+  /* Text color on hover */
+}
+
+/* Temporary red background on hover, but not affecting active link */
+.sidenav a:hover:not(.active) {
+  background-color: #F75866;
+  width:75%;
+  /* Red background for hovered icon */
+}
+
+/* Text display on hover */
+.sidenav a span {
+  margin-left: 10px;
+  display: none; /* Hide text by default */
+  position: absolute; /* Position text */
+  left: 70px; /* Adjust this value as needed to position text */
+  white-space: nowrap; /* Prevent text from wrapping */
+  background-color: #010101; /* Background color for text */
+  padding: 5px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Optional: add shadow for better visibility */
+  z-index: 2; /* Ensure text is above other elements */
+}
+
+/* Show text only for the hovered link */
+.sidenav a:hover span {
+  display: inline; /* Show text on hover */
+}
+
+/* Ensure icons are always visible */
+.sidenav a svg {
+  font-size: 25px;
+}
+
+img {
+  margin-top: 6%;
+  margin-bottom: 30%;
+  height: 5.5%;
+}

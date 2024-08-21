@@ -1,0 +1,36 @@
+.OverdueBookListContainer {
+    margin: 20px 0;
+}
+
+.overdue-book-list-card {
+    border-radius: 8px;
+}
+
+.overdue-book-list-title {
+    font-size: 20px;  /* Reduced font size */
+    text-align: left;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.overdueTable {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;  /* Reduced font size for table text */
+}
+
+.overdueTable th, .overdueTable td {
+    padding: 8px;  /* Slightly reduced padding */
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.overdueTable tr:hover {
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+.no-books-available {
+    text-align: center;
+
+}

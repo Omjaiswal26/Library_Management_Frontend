@@ -1,0 +1,52 @@
+.topnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF; /* White background */
+    padding: 10px 20px;
+    color: black; /* Change color to black for better contrast */
+    height : 10%
+}
+
+.topnav-logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.topnav-search input {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.topnav-icons {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.icon i {
+    font-size: 20px;
+}
+
+/* Add some hover effects for the icons */
+.icon i:hover {
+    color: #ddd;
+}
+.topnav-search input{
+    background-color: #F8F8F8;
+    border: 0px;
+    border-radius: 5%;
+    font-family: cursive;
+}
+
+.topnav h3{
+    margin-top: 1%;
+    font-family: sans-serif;
+    font-weight: 700;
+}

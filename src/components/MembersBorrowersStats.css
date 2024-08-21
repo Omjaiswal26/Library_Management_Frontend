@@ -1,0 +1,15 @@
+.MembersBorrowersStatsContainer {
+    margin: 20px 0;
+}
+
+.members-borrowers-stats-card {
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.members-borrowers-stats-title {
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+    color: #333;
+}

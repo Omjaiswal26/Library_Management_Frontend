@@ -1,0 +1,23 @@
+.greeting-card {
+    /* background-color: white; */
+    background-color: transparent;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    width: fit-content;
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+}
+
+.greeting-card .user-name {
+    color:#F75866;
+}
+
+.greeting-card p{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.greeting-card h5{
+    font-weight: 650;
+    font-size: 35px;
+}

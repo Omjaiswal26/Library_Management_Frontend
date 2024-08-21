@@ -1,0 +1,82 @@
+.homePageContainer {
+    display: flex;
+    height: 100vh;
+    background-color: #EDF1F2;
+}
+
+.main-content {
+    flex-grow: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #FFFFFF;
+}
+
+.container {
+    background-color: #f1f3f9db;
+    padding: 20px;
+    border-radius: 25px 0 0 25px; /* Top-left, top-right, bottom-right, bottom-left */
+    margin-left: 0 !important;
+    max-width: 100% !important;
+
+}
+
+.card-main-home {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+.card {
+    flex-basis: 48.7%;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.member-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 20px;
+}
+
+.book-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 20px;
+}
+
+.addButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.addButton:hover {
+    background-color: #0056b3;
+}
+
+
+.card-title {
+    font-size: 20px;  /* Reduced font size */
+    text-align: left;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.book-card-header{
+    border-radius: 20px;
+}
+
+.books-and-stats-container {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 20px; Add some space above the container */
+}
