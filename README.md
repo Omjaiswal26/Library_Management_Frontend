@@ -28,16 +28,3 @@ Following features have been successfully implemented till now:
 -   Setlle Debt
     ![SettleDebt](images/settle_debt.PNG)
 -   Charge a fee
-
-## *Features In Progress*
-
-Following features are in progress and will be implemented shortly:
--   Handling Book Stock
--   UI improvements
--   Statistics Page
--   Dues Page
--   Additional features
-
-## *Deployment*
-
-Due to issues with Live Backend not being able to hit Frappe API due to PythonAnywhere whitelisting issues, Frontend deployment isn't feasible.
