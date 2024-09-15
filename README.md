@@ -1,7 +1,7 @@
-# **Frappe Library FrontEnd**
+# **Library Management System FrontEnd**
 
 React based frontend application for Library management assignment.
-
+Backend can be found at: https://github.com/Omjaiswal26/frappe_library_backend
 
 ## *Implemented Features*
 
